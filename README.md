@@ -17,3 +17,10 @@ The 3rd step is to make the interface that will interpret the sign language and 
 The model gives almost 99% accuracy while predicting. And the interface is quite stable enough which can detect gesture in an interval of 30 miliseconds. It can print the detected character in console and screen.
 # Scope
 The future plan with this project is to built a front end application i.e. an android application so that it can come in the help of people. It can be used by doctors, teachers and other people to interact with the deaf and dumb community.
+# Instructions to Run
+first install the required python modules using the commands
+1.  pip install keras
+2.  pip install tensorflow==1.4.0
+3.  pip install opencv
+Then run the train1.ipynb file modifying the dataset path.
+After the model is built and saved to the prefered location run the gesture_recognition.ipynb file.
